@@ -28,3 +28,4 @@ echo "$VERSION" > ~/version
 mkdir -p ./AppDir/bin
 cd ./zsnes
 make -j$(nproc)
+mv -v zsnes ../AppDir/bin
